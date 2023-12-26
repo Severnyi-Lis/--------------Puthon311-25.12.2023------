@@ -1,4 +1,4 @@
-function calcbmr() {
+function calc() {
     let floor= document.getElementById("floor").value;
     let apartment = document.getElementById("apartment").value;
     let porch = document.getElementById("porch").value;
