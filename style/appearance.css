@@ -1,0 +1,16 @@
+header{
+    background-color:rgb(254, 254, 50);
+}
+article{
+    background-color: aqua;
+}
+footer{
+    background-color: yellow;
+}
+aside{
+    background-color: aqua;
+}
+.snowflake {
+    color: skyblue;
+    text-shadow: 0 0 1px #000;
+}

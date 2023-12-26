@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="UTF-8">
+        <title>Информация о доме</title>
+        <script src='task.js'></script>
+        <link href="style/appearance.css"
+        rel="stylesheet">
+        <link href="style/layout.css"
+        rel="stylesheet">
+    </head>
+    <body>
+            <header>
+                <nav class="box"><p>Информация</p>
+                   <p>о доме</p>
+                     <img src="photo/ель2.png"
+                      alt="ель"
+                      class="tree">
+                     <img src="photo/ель2.png"
+                      alt="ель"
+                      class="tree_2">
+                </nav>
+            </header>
+                <article class="tabl">
+                    <h1>Информация о доме</h1>
+                    <section>
+                        <p>Адрес</p>
+                        <input type="text" id="adress">
+                    </section>
+                    <section>
+                    <p>Наличие консьержа в доме</p>
+                        <div id="pol">
+                            <label for="gender">да</label><input type="radio" id="gender" name="gender_z" value="man" checked>
+                            <label for="gender_2">нет</label> <input type="radio" id="gender_2" name="gender_z" value="woman">
+                        </div>
+                    </section>
+                    <section>
+                        <label for="apartment">Количество квартир на этаже</label>
+                        <input type="number" min="1" id="apartment" placeholder="Количество квартир на этаже">
+                    </section>
+                    <section>
+                        <label for="floor">Количество этажей</label>       
+                        <input type="number" min="1" id="floor" placeholder="Количество этажей">
+                    </section>
+                    <section>
+                        <label for="porch">Количество подъездов</label>
+                        <input type="number" min="1" max="150" id="porch" placeholder="Количество подъездов">
+                    </section>
+                    <section>
+                         <input type="button" value="Расчет квартир" id="normal_2" onclick="calcbmr()">
+                         <label id="all">Общее количество квартир во всём доме</label>
+                         <p id="normal"></p>
+                    </section>
+                </article>
+                <footer>
+                <p><a href="https://github.com/Severnyi-Lis/Calorie-Calculator-Python311-20.12.2023-Js">ССЫЛКА НА МОЙ РЕПОЗИТОРИЙ</a></p>
+                <p>Продолжая использовать этот сайт, вы даете согласие на обработку файлов Cookies и других пользовательских данных,</p> 
+                <p>в соответствии с Политикой конфиденциальности и Пользовательским соглашением</p>
+                <p class="set_2">©house-info.ru  12+</p>
+                <p class="set_2">Все права защищены</p>
+                <p class="set_2">xnestro@mail.ru</p>
+            </footer>
+            <div class="snowflakes" aria-hidden="true">
+                <div class="snowflake">
+                ❅
+                </div>
+                <div class="snowflake">
+                ❅
+                </div>
+                <div class="snowflake">
+                ❆
+                </div>
+                <div class="snowflake">
+                ❄
+                </div>
+                <div class="snowflake">
+                ❅
+                </div>
+                <div class="snowflake">
+                ❆
+                </div>
+                <div class="snowflake">
+                ❄
+                </div>
+                <div class="snowflake">
+                ❅
+                </div>
+                <div class="snowflake">
+                ❆
+                </div>
+                <div class="snowflake">
+                ❄
+                </div>
+              </div>
+    </body>
+</html>
